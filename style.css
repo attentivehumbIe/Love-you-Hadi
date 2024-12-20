@@ -1,0 +1,73 @@
+/* Основные стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+    color: #333;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px;
+    color: #ff6f61;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+a.btn, button.btn {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+a.btn:hover, button.btn:hover {
+    background-color: #e55b4a;
+}
+
+/* Секции */
+section {
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+}
+
+/* Галерея котиков */
+.cat-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cat-gallery img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.cat-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Фон с анимацией */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
