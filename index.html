@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Привет, Хади!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Фон с анимацией -->
+    <canvas id="background"></canvas>
+
+    <!-- Главный блок -->
+    <div class="main-content">
+        <h1>Привет, Хади! 💖</h1>
+        <p>Этот сайт создан специально для тебя, потому что ты невероятная!</p>
+        <a href="#cats" class="btn">Увидеть котиков</a>
+        <a href="#about" class="btn">Узнать больше</a>
+    </div>
+
+    <!-- Раздел "Котики" -->
+    <section id="cats">
+        <h2>Милые котики для тебя!</h2>
+        <div class="cat-gallery">
+            <img src="https://placekitten.com/200/300" alt="Котик 1">
+            <img src="https://placekitten.com/250/300" alt="Котик 2">
+            <img src="https://placekitten.com/300/300" alt="Котик 3">
+        </div>
+        <button class="btn" onclick="addCat()">Добавить ещё котика!</button>
+    </section>
+
+    <!-- Раздел "О тебе" -->
+    <section id="about">
+        <h2>Почему ты такая особенная?</h2>
+        <p>Ты самая добрая, милая и красивая девушка, которую я знаю. Ты делаешь мой мир ярче, и я всегда хочу быть рядом с тобой.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
